@@ -1,0 +1,5 @@
+# Telegram Bot
+
+## Запуск
+pip install -r requirements.txt
+python bot.py
