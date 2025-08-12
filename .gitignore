@@ -3,3 +3,16 @@ data/*
 *.csv
 .ipynb_checkpoints/
 .DS_Store
+
+# data artifacts — exclude
+*.parquet
+*.csv
+*.xlsx
+data/
+outputs/
+insights/
+
+# allow important EDA artifacts
+!project1_data_analysis/02_eda/Сводка гипотез.xlsx
+!project1_data_analysis/02_eda/fraud_hypotheses_money_report.xlsx
+!project1_data_analysis/02_eda/*.png
