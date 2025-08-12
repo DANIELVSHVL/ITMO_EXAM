@@ -2,4 +2,4 @@
 
 ## Запуск
 pip install -r requirements.txt
-python bot.py
+python QA_BOT_ITMO.ipynb
